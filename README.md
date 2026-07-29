@@ -3,7 +3,7 @@
 
 An analysis of employer-sponsored health claims, built with Python for cleaning and enrichment, SQL for investigating cost drivers, and Power BI for reporting.
 
-📊 [Watch the 90-second dashboard walkthrough](YOUR_VIDEO_URL_HERE)
+📊 [Watch the 90-second dashboard walkthrough](https://youtu.be/9Fm_C5hL25s)
 📄 [View my resume](YOUR_RESUME_URL_HERE)
 
 ---
@@ -92,5 +92,4 @@ Employer_15 is paying 34% more per employee than Employer_07, and that gap doesn
 ---
 
 ## Contact
-Anand [Last Name]  
-[email] · [LinkedIn]
+[anandjp2026@gmail.com] · [www.linkedin.com/in/anandjp-05-ens]
