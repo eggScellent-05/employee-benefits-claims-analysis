@@ -36,6 +36,7 @@ From there, I investigated cost drivers in SQL and built the Power BI dashboard 
 
 ## Dashboard
 Interactive filtering by Employer Group and Plan Tier. For the live interactive version, see the walkthrough video or open `powerbi/dashboard.pbix` in Power BI Desktop.
+
 <img width="2306" height="1328" alt="Screenshot 2026-07-28 055036" src="https://github.com/user-attachments/assets/c8f91273-2ee3-4d6a-8afd-f981d60bff6d" />
 
 
