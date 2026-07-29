@@ -36,6 +36,8 @@ From there, I investigated cost drivers in SQL and built the Power BI dashboard 
 
 ## Dashboard
 Interactive filtering by Employer Group and Plan Tier. For the live interactive version, see the walkthrough video or open `powerbi/dashboard.pbix` in Power BI Desktop.
+<img width="2306" height="1328" alt="Screenshot 2026-07-28 055036" src="https://github.com/user-attachments/assets/c8f91273-2ee3-4d6a-8afd-f981d60bff6d" />
+
 
 ---
 
@@ -77,7 +79,7 @@ employee-benefits-claims-analysis/
 Employer_15 is paying 34% more per employee than Employer_07, and that gap doesn't go away when you look at any single plan tier on its own. So the fix isn't to change what Employer_15's plan covers, since the data shows that wouldn't actually solve the problem.
 * Look into why Employer_15's employees cost more in the first place, before deciding on anything. That's an underwriting question (things like age mix, health risk, or job type), not something this dataset alone can answer.
 * Pay attention to the top 20% of employees, since they're driving over a third of total cost. Even a small group of high-cost claimants can swing renewal pricing, so this is worth tracking on its own regardless of which employer group they belong to.
-* 
+  
 ---
 
 ## What could be improved:
