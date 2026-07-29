@@ -16,7 +16,7 @@ An analysis of employer-sponsored health claims, built with Python for cleaning 
 * [Repo Structure](#repo-structure)
 * [Methodology](#methodology)
 * [Recommendation](#recommendation)
-* [What I'd Do With More Time/Data](#what-id-do-with-more-timedata)
+* [What could be improved](#What-could-be-improved)
 
 ---
 
@@ -74,13 +74,10 @@ employee-benefits-claims-analysis/
 ---
 
 ## Recommendation
-Based on the finding that Employer_15 costs 34% more per employee than Employer_07 across all plan tiers, the primary driver is underlying population risk rather than plan design. 
-
-**Action items for renewal:**
-* **Underwriting Review:** Do not alter plan tiers or increase cost-sharing for Employer_15 as a fix, since Bronze, Silver, and Gold tiers all suffer the same inflation. Instead, review large-claimant activity and chronic condition prevalence.
-* **Stop-Loss and Case Management:** Given that the top 20% of employees drive 36% of spend, implement targeted nurse case management for high-risk claimants and evaluate specific stop-loss deductible thresholds to protect the plan from catastrophic volatility.
-* **Wellness & Prevention:** Target preventative care initiatives specifically toward higher-cost groups to mitigate avoidable emergency and inpatient claims.
-
+Employer_15 is paying 34% more per employee than Employer_07, and that gap doesn't go away when you look at any single plan tier on its own. So the fix isn't to change what Employer_15's plan covers, since the data shows that wouldn't actually solve the problem.
+* Look into why Employer_15's employees cost more in the first place, before deciding on anything. That's an underwriting question (things like age mix, health risk, or job type), not something this dataset alone can answer.
+* Pay attention to the top 20% of employees, since they're driving over a third of total cost. Even a small group of high-cost claimants can swing renewal pricing, so this is worth tracking on its own regardless of which employer group they belong to.
+* 
 ---
 
 ## What could be improved:
