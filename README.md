@@ -46,7 +46,7 @@ Interactive filtering by Employer Group and Plan Tier. For the live interactive 
 * **Python (pandas):** Cleaning and feature engineering
 * **SQL (SQLite):** KPI queries and cost concentration analysis
 * **Power BI:** Interactive dashboard and DAX measures
-* **Excel:** Number validation and renewal projections
+* **Excel:** (pivot table, XLOOKUP) to cross-check the Power BI numbers and sketch a basic renewal cost scenario
 
 ---
 
@@ -73,6 +73,8 @@ employee-benefits-claims-analysis/
 * **Enrich:** Simulated 18 employer groups, three plan tiers, and marital-status-tied dependents.
 * **Investigate:** Analyzed group costs, claim type frequency/severity, and employee decile concentration in SQL.
 * **Report:** Built interactive DAX KPIs and charts in Power BI.
+* **Cross-check in Excel:** rebuilt the cost per employer-group numbers in a pivot table to confirm they matched Power BI,then used XLOOKUP to pull those
+    numbers into a small scenario table showing what Employer_15 and Employer_07's cost would look like under a flat 5%, 10%, or 15% renewal increase.
 
 ---
 
