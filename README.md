@@ -63,3 +63,34 @@ employee-benefits-claims-analysis/
 └── powerbi/
     ├── dashboard.pbix
     └── dashboard_screenshot.png
+```
+---
+## Methodology
+* **Clean & Scope:** Filtered to `PatientEmploymentStatus == 'Employed'` relevant to employer-sponsored benefits.
+* **Enrich:** Simulated 18 employer groups, three plan tiers, and marital-status-tied dependents.
+* **Investigate:** Analyzed group costs, claim type frequency/severity, and employee decile concentration in SQL.
+* **Report:** Built interactive DAX KPIs and charts in Power BI.
+
+---
+
+## Recommendation
+Based on the finding that Employer_15 costs 34% more per employee than Employer_07 across all plan tiers, the primary driver is underlying population risk rather than plan design. 
+
+**Action items for renewal:**
+* **Underwriting Review:** Do not alter plan tiers or increase cost-sharing for Employer_15 as a fix, since Bronze, Silver, and Gold tiers all suffer the same inflation. Instead, review large-claimant activity and chronic condition prevalence.
+* **Stop-Loss and Case Management:** Given that the top 20% of employees drive 36% of spend, implement targeted nurse case management for high-risk claimants and evaluate specific stop-loss deductible thresholds to protect the plan from catastrophic volatility.
+* **Wellness & Prevention:** Target preventative care initiatives specifically toward higher-cost groups to mitigate avoidable emergency and inpatient claims.
+
+---
+
+## What could be improved:
+* Incorporate actual premium data to calculate a true loss ratio.
+* Add historical years of data for multi-year renewal trends.
+* Build predictive models to flag high-cost claimants early.
+* Add industry/demographic data to explain the Employer_15 vs. Employer_07 cost gap.
+
+---
+
+## Contact
+Anand [Last Name]  
+[email] · [LinkedIn]
