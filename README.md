@@ -62,7 +62,7 @@ employee-benefits-claims-analysis/
 ├── sql/
 │   └── kpi_queries.sql
 ├── excel/
-│   └── renewal_projection.xlsx
+│   └── cost_validation_and_renewal_scenario.xlsx
 └── powerbi/
     ├── dashboard.pbix
     └── dashboard_screenshot.png
